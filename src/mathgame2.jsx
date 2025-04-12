@@ -14,7 +14,7 @@ function MathGame2() {
 
     useEffect(() => {
         const connection = new signalR.HubConnectionBuilder()
-            .withUrl("http://192.168.43.41:5000/chat")
+            .withUrl("https://crushy-backend-g0drd3dvddhjgyhk.canadacentral-01.azurewebsites.net/chat")
             .withAutomaticReconnect()
             .build();
 
